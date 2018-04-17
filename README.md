@@ -13,7 +13,7 @@
 
 
 <p>
-  Paragraph 1
+  Eternal Darkness is an RPG shooter with a top-down view. Using WASD keys to move and space to shoot. The first wave you must push all the Zombies into the containment unit. However, the Zombies escape from the unit. The second wave you must shoot the Zombies that have escaped from the containment unit and prevent them from fleeing the facility and infecting more people. In the third wave you have to kill the source Zombies (The Bosses).
   
 </p>
 <p>
