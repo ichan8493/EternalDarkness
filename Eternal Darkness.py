@@ -369,8 +369,8 @@ while not game.over:
         if miniondead2 >= 6:
             invincible = False
                 
-    '''
-    if boss.health<=40:
+  
+    if boss.health<=40 and boss.health > 20:
         if miniondead3 == 0:
             invincible = True
         for index in range(7):
@@ -387,19 +387,24 @@ while not game.over:
         if miniondead3 >= 7:
             invincible = False
 
-    if boss.health<=20:
+    if boss.health<=20 and boss.health > 0:
+        if miniondead4 == 0:
+            invincible = True
         for index in range(8):
             minions4[index].moveTowards(hero,2)
             if minions4[index].collidedWith(hero):
                 hero.health -=5
             if bullet.collidedWith( minions4[index]) or bulletl.collidedWith( minions4[index]):
-                 minions4[index].health-=100
+                 minions4[index].visible=False
                  bullet.visible=False
                  bulletl.visible=False
-            if  minions4[index].health<=0:
-                minions4[index].visible=False
+                 miniondead4 += 1
+                 ZombieDie.play()
+
+        if miniondead4 >= 8:
+            invincible = False
         
-    '''
+    
     if plasma.collidedWith(hero) or plasma.collidedWith(heror):
         hero.health-=10
         
