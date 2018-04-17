@@ -6,8 +6,8 @@
 <a href="https://www.youtube.com/watch?v=_GikMdhAhv0">How To Download<a/><br>
   
 <img src="https://github.com/ichan8493/EternalDarkness/blob/master/game%20pic%201.PNG">
-<img src="">
-<img src="">
+<img src="https://github.com/ichan8493/EternalDarkness/blob/master/game%20pic%202.PNG">
+<img src="https://github.com/ichan8493/EternalDarkness/blob/master/game%20pic%203.PNG">
 <img src="">
 
 
