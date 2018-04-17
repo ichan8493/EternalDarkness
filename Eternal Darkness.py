@@ -21,6 +21,7 @@ story.y+=100
 
 ts = Image("TS.png", game)
 ts.y+=100
+
 #PLAY
 play = Image("Play.png", game)
 play.y+=200
@@ -218,6 +219,7 @@ while not game.over:
     bulletl.move()
     bullet.move()
     
+    
         
 
         #Hero Controls
@@ -304,7 +306,7 @@ miniondead = 0
 miniondead2 = 0
 miniondead3 = 0
 miniondead4 = 0
-hero.health=1000
+hero.health=150
 while not game.over:
     game.processInput()
     bk.draw()
